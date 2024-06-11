@@ -4,18 +4,19 @@ body {
 }
 
 header, footer {
-    background-color: rgb(159, 89, 94);
+    background-color: rgb(166, 187, 120);
 }
 
 .site-title  {
-    color: rgb(105, 43, 63);
+    color: rgb(24, 34, 0);
 }
+
 
 #my-image {
     box-shadow: 0 0 2px 1px rgb(0, 0, 0);
 }
 .paragraph {
-    color: rgb(40, 33, 1);
+    color: rgb(25, 37, 0);
 }
 
 .hobby-list {
@@ -23,13 +24,14 @@ header, footer {
 }
 
 .hobby-list li:nth-child(odd) {
-    background-color: rgb(141, 78, 78);
+    background-color: rgb(178, 207, 115);
 }
 .hobby-list li:nth-child(odd) {
-    background-color: rgb(141, 78, 78);
+    background-color: rgb(178,207,115);
 }
 
-/* Remove the bullets from the unordered list in navigation */
+
+/* Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) */
 nav ul {
     list-style: none;
 }
@@ -41,13 +43,13 @@ nav a {
 
 /* Add a background and border to the links */
 nav a {
-    background-color:  rgba(162, 56, 54, 0.574);
-    border: 2px solid rgb(0, 0, 0);
-    padding: 9px 10px;
+    background-color:  rgb(106, 128, 59);
+    border: 2px solid #6f3e89;
+    padding: 9px 15px; /* Adjust padding as needed */
 }
 
 /* Change the background colour on hover or focus state of the links */
 nav a:hover,
 nav a:focus {
-    background-color: rgb(77, 28, 28);
+    background-color: #96b8b2;
 }
