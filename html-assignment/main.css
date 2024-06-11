@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(159, 89, 94);
+}
+
+.site-title  {
+    color: rgb(105, 43, 63);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+.paragraph {
+    color: rgb(40, 33, 1);
+}
+
+.hobby-list {
+    list-style-type: square;
+}
+
+.hobby-list li:nth-child(odd) {
+    background-color: rgb(141, 78, 78);
+}
+.hobby-list li:nth-child(odd) {
+    background-color: rgb(141, 78, 78);
+}
+
+/* Remove the bullets from the unordered list in navigation */
+nav ul {
+    list-style: none;
+}
+
+/* Remove the underline from the links */
+nav a {
+    text-decoration: none;
+}
+
+/* Add a background and border to the links */
+nav a {
+    background-color:  rgba(162, 56, 54, 0.574);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 9px 10px;
+}
+
+/* Change the background colour on hover or focus state of the links */
+nav a:hover,
+nav a:focus {
+    background-color: rgb(77, 28, 28);
+}
