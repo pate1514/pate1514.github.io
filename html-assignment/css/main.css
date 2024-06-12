@@ -8,7 +8,11 @@ header, footer {
 }
 
 .site-title  {
-    color: rgb(112, 135, 54);
+    color: rgb(25, 35, 1);
+}
+
+.site-article {
+    color: rgb(26, 37, 3)
 }
 
 
