@@ -74,7 +74,7 @@ a {
 
 
 /* Contact Form Styles */
-#contact {
+#page {
  
     padding: 10px;
     margin: 10px 0;
@@ -107,6 +107,7 @@ form button  {
    border : 1px solid black;
    position: relative;
    margin: 0 auto;
+   background-color: #d3c60a;
 
 }
 
