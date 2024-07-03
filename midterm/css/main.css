@@ -14,22 +14,20 @@ body {
 /* Styling the header with center alignment and white text color */
 header {
     position: relative;
-    text-align: center;
+  
     color: white;
 }
 /* Setting the header image dimensions*/
 .header-image {
     width: 100%;
-    height: 50%;
-   text-align: center;
 }
 
 /* Positioning the site title within the header */
 .site-title {
     position: absolute;
-    top: 50%;
+    top: 39%;
     left: 35%;
-    font-size: 2.5vw;
+    font-size: 50px;
 } 
 
 
@@ -45,6 +43,7 @@ nav  li {
     display: inline-block;
     width: 32%;
     text-align: center;
+    font-size: 25px;
 }
 /* Adding border-right style to list items */
 nav  li:not(:last-child) {
@@ -52,30 +51,29 @@ nav  li:not(:last-child) {
     border-block-end-width: 2px
     ;
 }
-/* Styling the navigation links */
-a {
-    text-decoration: none;
-     color: #000000;
-     font-size: 1.5vw;
-   
-     
-}
-
 
 /* Floating article images to the left with margin  */
 .article-image {
     float: left;
     margin-right: 20px;
-    width: 30%;
-    height: 30%;
+    width: 28%;
+    height: 28%;
 }
+
+p
+ { font-size: 16px;}
+
+ section ul {
+    font-size: 16px;
+ }
+
 
 
 /* Contact Form Styles */
 #page {
  
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px ;
     border-radius: 8px;
    
 }
@@ -90,8 +88,6 @@ form input[type="email"],
 form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
@@ -99,18 +95,16 @@ form textarea {
 #class {
     display: inline-flex;
 }
-
+/* styling the from button padding border and background colour*/
 form button  {
    padding: 10px 20px;
-   border : 1px solid black;
+   border : 2px solid black;
    position: relative;
    margin: 0 auto;
    background-color: #d3c60a;
 
 }
-
-
-
+/* styling the from button color change for the touch the button*/
 form button:hover {
     background-color: #5f7c00;
 }
@@ -120,12 +114,16 @@ form button:hover {
         
         margin: 0 auto;
         padding: 40px;
-        border: 1px solid #000000;}
+        border: 2px solid #000000;}
      
 /* Footer Styles */
 footer {
     text-align: right;
-    padding: 5px;
+    
     color: rgb(0, 0, 0);
     
+    
+}
+footer p { 
+    font-size: 25px;
 }
